@@ -117,6 +117,7 @@ const convertResponseToAudio = async (text) => {
     const audioStream = await voice.textToSpeechStream({
         textInput: text,
     });
+    
     const fileWriteStream = fs.createWriteStream("./audio/" + filename);
     audioStream.pipe(fileWriteStream);
 
