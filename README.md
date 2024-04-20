@@ -1,4 +1,4 @@
-# Voice Assistant with OpenAI, LangChain, and ElevenLabs
+# Magana
 
 This is a simple voice assistant that listens for a keyword, transcribes what it hears, sends the transcription to OpenAI, and plays back the response using the ElevenLabs API. It requires setting up several services and APIs.
 
